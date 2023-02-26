@@ -45,7 +45,7 @@ PUT      /categories/:id
 DELETE   /categories/:id
 ```
 ## Testing (Using Existing Mock Data)
-Create some Mock Data and update the variables accordingly in the files in test directory. <br />
+Create some Mock Data and update the variables accordingly in the files in the test directory. Update the occurences of the variable `objectId`.<br />
 To run Unit Tests using Mocha and Chai: 
 ```
 npm test
