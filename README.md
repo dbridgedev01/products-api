@@ -18,7 +18,7 @@ To start the API:
 ```
 node app.js
 ```
-Use [Postman](https://www.postman.com) to test the API. <br />
+You can use [Postman](https://www.postman.com) to test the API. <br />
 
 ## Routes
 Assuming the app is run locally on Localhost. </br>
