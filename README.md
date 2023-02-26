@@ -44,6 +44,12 @@ POST     /categories
 PUT      /categories/:id
 DELETE   /categories/:id
 ```
+## Testing (Using Existing Mock Data)
+Create some Mock Data and update the variables accordingly in the files in test directory. <br />
+To run Unit Tests using Mocha and Chai: 
+```
+npm test
+```
 
 
 
