@@ -4,7 +4,7 @@
   "description": "A simple API that complies to RESTful architecture for performing CRUD operations on Product and Category data.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
   }
 }
