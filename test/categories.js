@@ -54,7 +54,7 @@ describe("POST /api/categories", () => {
     });
 });
 
-// // Testing the PUT Route
+// Testing the PUT Route
 describe("PUT /api/categories", () => {
     it("Should PUT/UPDATE a SINGLE Category by ID.", (done) => {
         const category = {name: "Test Category123"};
